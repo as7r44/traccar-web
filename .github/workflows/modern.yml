@@ -2,15 +2,8 @@ name: Modern App Lint
 
 on:
   workflow_dispatch:
-                  branches:
-                    - master
-                  paths:
-                    - modern/**
-                   pull_request:
-                  branches:
-                    - master
-                  paths:
-                    - modern/**
+               
+   
 
 jobs:
   build:
