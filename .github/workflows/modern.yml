@@ -1,16 +1,16 @@
 name: Modern App Lint
 
 on:
-  push:
-    branches:
-      - master
-    paths:
-      - modern/**
-  pull_request:
-    branches:
-      - master
-    paths:
-      - modern/**
+  workflow_dispatch:
+                  branches:
+                    - master
+                  paths:
+                    - modern/**
+                   pull_request:
+                  branches:
+                    - master
+                  paths:
+                    - modern/**
 
 jobs:
   build:
